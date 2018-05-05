@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nelson.cracel1.MenuPrincipal"
+    style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+    android:clickable="true"
+    android:background="#ffffff">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Entra no Sistema"
+        android:id="@+id/botao1"
+        android:background="#a63a62e7"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/botao2"
+        android:textColor="#fcfcff"
+        android:ellipsize="marquee"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Mídia Cra"
+        android:id="@+id/botao2"
+        android:textStyle="bold"
+        android:background="#a63a62e7"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/botao1"
+        android:layout_alignStart="@+id/botao3"
+        android:clickable="false"
+        android:enabled="true"
+        android:textColor="#f8f8fb" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Sair"
+        android:id="@+id/botao3"
+        android:textStyle="bold"
+        android:background="#a63a62e7"
+        android:layout_below="@+id/botao2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textColor="#f8f8fa" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:adjustViewBounds="false"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logocra1" />
+
+</RelativeLayout>
